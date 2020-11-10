@@ -42,5 +42,11 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "next",
+    "log",
+    "logger",
+    "fancy-log"
+  ]
 }

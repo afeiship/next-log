@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "before:init": [
+    "after:init": [
       "npm test",
       "t2k"
     ]
