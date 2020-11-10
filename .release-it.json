@@ -1,4 +1,10 @@
 {
+  "hooks": {
+    "before:init": [
+      "npm test",
+      "t2k"
+    ]
+  },
   "github": {
     "release": true
   }
