@@ -10,7 +10,8 @@
   "scripts": {
     "build": "gulp",
     "test": "jest",
-    "start": "node ./express.js"
+    "start": "node ./express.js",
+    "release": "release-it"
   },
   "main": "dist/next-log.js",
   "license": "MIT",
@@ -30,8 +31,9 @@
     "gulp-uglify": "^3.0.2",
     "jest": "^26.0.1",
     "prettier": "^2.0.5",
-    "uglify-save-license": "^0.4.1",
+    "release-it": "^14.2.1",
     "uglify-js": "3.9.4",
+    "uglify-save-license": "^0.4.1",
     "yargs": "^15.3.1"
   },
   "dependencies": {
