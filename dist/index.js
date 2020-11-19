@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-log
+ * name: @jswork/next-log
  * description: Logger for next.
  * homepage: https://github.com/afeiship/next-log
  * version: 1.0.0
- * date: 2020-06-06T15:21:32.058Z
+ * date: 2020-11-19 08:34:02
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var log = require('fancy-log');
 
   nx.log = log;
@@ -18,5 +18,3 @@
     module.exports = nx.log;
   }
 })();
-
-//# sourceMappingURL=next-log.js.map
