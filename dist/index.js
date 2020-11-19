@@ -3,7 +3,7 @@
  * description: Logger for next.
  * homepage: https://github.com/afeiship/next-log
  * version: 1.0.0
- * date: 2020-11-19 08:34:02
+ * date: 2020-11-19 08:36:04
  * license: MIT
  */
 
