@@ -13,7 +13,7 @@ npm install -S @jswork/next-log
 
 ## usage
 ```js
-import '@feizheng/next-log';
+import '@jswork/next-log';
 
 nx.log('hello');
 // [23:22:20] hello
